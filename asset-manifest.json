@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/jmcommerce/static/css/main.ffe4052e.css",
+    "main.js": "/jmcommerce/static/js/main.53ed9833.js",
+    "index.html": "/jmcommerce/index.html",
+    "main.ffe4052e.css.map": "/jmcommerce/static/css/main.ffe4052e.css.map",
+    "main.53ed9833.js.map": "/jmcommerce/static/js/main.53ed9833.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffe4052e.css",
+    "static/js/main.53ed9833.js"
+  ]
+}
