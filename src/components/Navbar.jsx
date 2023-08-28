@@ -10,7 +10,7 @@ function Navbar() {
   return (
     <div className={`w-full  h-16 p-5 flex items-center justify-between  border-b border-slate-300`}>
         <div className='flex items-center gap-5'>
-        <Link to='/' className='text-xl max-[280px]:text-sm  max-[223px]:text-xs    sm:text-2xl font-bold'>JM<span className='text-[#ff7654]'>COMMERCE</span></Link>
+        <Link to='/jmcommerce-react' className='text-xl max-[280px]:text-sm  max-[223px]:text-xs    sm:text-2xl font-bold'>JM<span className='text-[#ff7654]'>COMMERCE</span></Link>
         </div>
         <div className='flex items-center justify-between w-[80px] sm:w-[100px] '>
            <p>{parseFloat(totalPrice).toFixed(2)}$</p>

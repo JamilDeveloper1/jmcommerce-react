@@ -65,7 +65,7 @@ function Products() {
 {
     currentItems.sort((a,b) => sort === "inc" ? a.price-b.price : sort === "dec" ? b.price - a.price : null )
     .map(item => (
-        <Link to={`/product/${item.id}`} key={item.id}>
+        <Link to={`/jmcommerce-react/product/${item.id}`} key={item.id}>
         <div  className=' max-[260px]:w-[200px]   w-[250px]  h-[250px] shadow-md shadow-[#00000046] flex items-center justify-center gap-3 flex-col'>
             <img src={item.image} className='w-[100px] h-[120px]' alt="" />
             <p>{item.title.substring(0,25)}</p>

@@ -14,7 +14,7 @@ if(cart.length === 0 ){
     return(
         <div className='flex flex-col gap-1 items-center justify-center h-[70%]'>
             Your cart is empty 
-            <a href='/products' className='border p-1 rounded-md bg-[#ff7654]'>Go Shopping</a>
+            <a href='/jmcommerce-react/products' className='border p-1 rounded-md bg-[#ff7654]'>Go Shopping</a>
             
         </div>
     )

@@ -16,7 +16,7 @@ function Home() {
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eveniet eligendi in nihil repudiandae nesciunt.
         </p>
-        <Link to='/products'>
+        <Link to='/jmcommerce-react/products'>
         <button className='w-[130px] flex items-center p-2 rounded-sm justify-between bg-[#ff7654]'><AiOutlineShoppingCart/> Shop Now</button>
        </Link>
        </div>
@@ -27,7 +27,7 @@ function Home() {
         {
             product.filter(item => item.category === "men's clothing"  )
             .map(item => (
-                <Link to={`/product/${item.id}`} id={item.id}>
+                <Link to={`/jmcommerce-react/product/${item.id}`} id={item.id}>
                 <div  className=' justify-between p-1 max-[260px]:w-[220px]  w-[250px] h-[250px] flex items-center flex-col gap-3'>
                     <img src={item.image} className='hover:scale-105 w-[100px] h-[120px] '   alt="" />
                     <p className='hover:underline'>{item.title.substring(0,20)}</p>

@@ -6,7 +6,7 @@ import SocialMedia from './SocialMedia';
 function Footer() {
   const {handleClick} = useContext(ProductContext);
   return (
-    <div className='w-full  mt-16 bg-slate-800 p-5 '>
+    <div className='w-full  mt-28 bg-slate-800 p-5 '>
     <div className=' flex flex-col gap-5 md:flex-row justify-between '>
       <div className='flex flex-col w-full md:w-1/4 gap-3'>
         <p className='font-bold text-2xl text-white'>JM<span className='text-[#ff7654]'>COMMERCE</span></p> 
@@ -16,8 +16,8 @@ function Footer() {
       </div>
       <div className='text-white flex flex-col gap-3'>
         <p className='text-xl font-bold text-[#ff7654]'>Quick Links</p>
-        <Link to='/'>Home</Link>
-        <Link to='/products'>All Products</Link>
+        <Link to='/jmcommerce-react'>Home</Link>
+        <Link to='/jmcommerce-react/products'>All Products</Link>
         <p onClick={handleClick} className='cursor-pointer'>Cart</p>
       </div>
       <div className='w-full md:w-1/4 flex flex-col gap-3 text-white'>

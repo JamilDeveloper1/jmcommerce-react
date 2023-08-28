@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ul{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-} */
+
 ul li {
     padding: 10px;
     border-radius: 50%;
