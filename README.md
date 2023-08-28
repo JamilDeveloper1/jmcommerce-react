@@ -7,5 +7,6 @@ You can:
 4)increase and decrease amount 
 5)product detail
 6)filter category 
+7)Clear Cart
 
 Live : https://jamildeveloper1.github.io/jmcommerce-react/
