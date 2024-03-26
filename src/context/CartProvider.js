@@ -1,4 +1,7 @@
 import { createContext, useEffect, useState } from "react";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
+
 
 export const CartContext = createContext();
 
@@ -35,6 +38,10 @@ else{
     setCart([...cart,{...product,amount : 1}])
 }
 
+toast.success('Added successfully!' , {
+    autoClose: 1000,
+
+}); 
 
     }
 
@@ -42,6 +49,9 @@ else{
     const removeFromCart = (id) =>{
         const newCart = cart.filter(item => item.id !== id);
         setCart(newCart);
+        toast.success('Remove successfully!',{
+            autoClose : 1000,
+        })
     }
 
 

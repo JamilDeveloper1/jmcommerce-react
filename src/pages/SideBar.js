@@ -11,7 +11,7 @@ function SideBar() {
     return (
 
 
-    <div className={` ${ openBar ? 'right-0' : '-right-full'  }  w-full bg-[#0000004d]  flex justify-end  
+    <div className={` ${ openBar ? 'right-0' : '-right-full'  }  w-full bg-[#0000004d] z-50 flex justify-end  
      fixed top-0 bottom-0`}>
 <div className='bg-white p-3 w-full md:w-1/2 lg:w-1/3 overflow-y-scroll '>
         <div className='   p-3 flex items-center justify-between border-b border-slate-200'>

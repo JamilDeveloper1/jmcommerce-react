@@ -3,10 +3,12 @@ import { CartContext} from '../context/CartProvider'
 
 import {AiOutlineCloseCircle} from 'react-icons/ai'
 import { Link } from 'react-router-dom';
+import { ProductContext } from '../context/ProductProvider';
 function CartItem() {
 
     const {cart,removeFromCart,increaseAmount,decreaseAmount} = useContext(CartContext);
 
+    const {handleClick} = useContext(ProductContext);
 
 
 
@@ -29,7 +31,7 @@ if(cart.length === 0 ){
         <div className='flex justify-between gap-1 border-b border-slate-300 p-1'>
             <img src={item.image} width='40' alt="" />
             <div className='w-3/4'>
-                <Link to={`/product/${item.id}`}>
+                <Link to={`/jmcommerce-react/product/${item.id}`} onClick={handleClick}>
             <p className='hover:underline'>{item.title.substring(0,20)}</p>
             </Link>
             <div className='flex  gap-1 items-center  justify-between'>

@@ -16,7 +16,7 @@ function Footer() {
       </div>
       <div className='text-white flex flex-col gap-3'>
         <p className='text-xl font-bold text-[#ff7654]'>Quick Links</p>
-        <Link to='/jmcommerce-react'>Home</Link>
+        <Link to='/jmcommerce-react/#'>Home</Link>
         <Link to='/jmcommerce-react/products'>All Products</Link>
         <p onClick={handleClick} className='cursor-pointer'>Cart</p>
       </div>
